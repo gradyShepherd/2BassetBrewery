@@ -1,0 +1,323 @@
+html
+{
+	height: 100%;
+	width: 100%;
+}
+a:hover
+{
+	text-decoration:none !important
+}
+body
+{
+	width: 100%;
+}
+h1
+{
+	color: #FFCF00 !important;
+	text-shadow: 2px 2px black;
+	font-weight:bolder;
+}
+h2
+{
+	color:white !important;
+	text-shadow: 2px 2px black !important;
+	font-weight:bold !important;
+	font-size:16pt !important;
+	margin-top:-10px !important;
+}
+h3
+{
+	text-shadow: 1px 1px black !important;
+	color:white !important;
+}
+marquee
+{
+	margin-bottom:-18px;
+}
+.beerImage
+{
+	width: 120%;
+	border: solid #422F20 5px; 
+	border-radius: 10px;
+}
+.beerImgRow
+{
+	
+}
+.beerName
+{
+	margin-bottom:15px !important;
+}
+.beerRow
+{
+	margin-top:40px;
+}
+.beerThumbnail
+{
+	height: 100px;
+	width:auto;
+	position:absolute;
+	top:125px;
+}
+.button
+{
+	display:block;
+	width:235px;
+	height:80px;
+	text-align:center;
+	padding-top:20px;
+	border-radius:45px;
+	background-color: #FFD966;
+	color: #DD7403 !important;
+	text-transform:uppercase;
+	font-size: 20pt;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+}
+.caption{
+	text-align:center !important;
+	color:white;
+	font-size: 12pt;
+	text-shadow: 1px 1px black;
+}
+.contentRow
+{
+}
+.footer
+{	
+    bottom : 0;
+    height : 50px;
+    margin-top : 50px;
+	color:white;
+	margin-left: 5%;
+	border-top: solid 3px #A34F0A;
+	padding-top:10px;
+	width:90%;
+	text-transform:uppercase;
+}
+.header
+{
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom:50px;
+	border-top:solid #A34F0A 3px;
+	border-bottom:solid #A34F0A 3px;
+	background-color: #361508;
+	text-align:center !important;
+}
+.headerDog
+{
+	height:80px;
+	width:auto;
+}
+.headerLink
+{
+	color: #FAF700 !important;
+	font-weight:bolder;
+	font-size: 13pt;
+	text-align:center;
+	margin-left:2%;
+	text-decoration:none;
+	text-shadow: 1.25px 1.25px #D15700;
+	text-transform: uppercase !important;
+	padding-bottom:7px;
+}
+.headerLink:hover
+{
+	color: #DD7403 !important;
+	text-decoration:none !important;
+	text-shadow: 1.25px 1.25px #FAF700;
+}
+.activePage
+{
+	border-bottom:solid 2px #FAF700; 
+	color: white !important; 
+	text-shadow:none !important;
+}
+.imageBlock
+{
+	margin-left:40px;
+	margin-top:20px;
+	width:100%;
+}
+.leftImg
+{
+	margin-left: 0px !important;
+}
+.logoImg
+{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-50px;
+	margin-top:20px;
+	width:20%;
+}
+.margins
+{
+	background-color: #D15700;
+	width: 100% !important;
+	height:100% !important;
+}
+.text
+{
+	color:white;
+	text-shadow: 2px 2px black;
+	font-weight:bold;
+	text-indent:20px;
+	font-size: 14pt;
+}
+.updateInfo
+{
+	color:white;
+	font-size: 16pt;
+	font-weight:bold;
+	margin-top: 30px;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	
+}
+.wrapper
+{
+	background-color: #DD7403;
+	margin-bottom:50px;
+	margin-top:50px;
+	border-radius:10px;
+	padding-bottom:15px;
+	border: solid 3px #A34F0A;
+}
+.imgSlider
+{
+	margin-left: 20% !important;
+	width: 51.8%;
+	/*background-color:#361508;
+	border: solid #361508 7px;
+	border-radius: 10px;*/
+}
+.photo
+{
+	width:120%;
+    transform: translate(0%, -50%);
+	border: solid #422F20 5px; 
+	border-radius: 10px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+.altRow
+{
+	margin-top:50%;
+}
+.xsBeerName
+{
+	font-size: 20pt;
+}
+.xsUpdate
+{
+	font-size: 12pt !important;
+	text-align: left;
+	padding-left:15px;
+}
+.xsCaption
+{
+	text-align:left !important;
+	color:white;
+	font-size: 10pt;
+	text-shadow: 1px 1px black;
+}
+.xsBeerImage
+{
+	width: 60px;
+	height: 80px;
+	border: solid #422F20 5px; 
+	border-radius: 10px;
+}
+/**********************/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 75%;
+  padding: 0;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: solid 3px #422F20;
+  border-radius:10px;
+  margin-right:0px;
+  }
+
+ .xsLogoImg
+ {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-50px;
+	margin-top:20px;
+	width: 50%;
+ }
+
+ .emailLink
+ {
+	color:white !important;
+	text-shadow: 2px 2px black !important;
+	text-decoration: underline;
+ }
+ 
+ .emailLink:hover
+ {
+	 color:yellow !important;
+ }
+ 
+ .gearImage
+ {
+	 border-radius:10px;	 
+	 border: solid 5px #422F20;
+	 width:100%;
+	 margin-left:auto;
+	 margin-right:auto;
+	 display:block;
+ }
+ 
+ .gearImgBlock
+ {
+	 padding-top:20px;
+ }
+ .facebookLink
+ {
+	 width:32px;
+	 height:32px;
+	 display:inline-block;
+	 float:right;
+ }
+ .facebookLogo
+ {
+	 width:100%;
+	 height:auto;
+	 display:block;
+	 margin-right:0;
+	 
+ }
