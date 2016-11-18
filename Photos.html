@@ -4,6 +4,9 @@
 		<div class="col-lg-1"></div>
 		<div class="wrapper col-lg-10">
 			<head>
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
 				<link rel="stylesheet" href=".\CSS/BreweryStyle.css"></link>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
@@ -16,14 +19,28 @@
 					<img src=".\Images/Logo.png" class="xsLogoImg hidden-lg hidden-md hidden-sm"/>
 				</div>
 				<marquee class="row" direction="right"><img class="headerDog" src="./Images/stanley.gif"/><img class="headerDog" src="./Images/leroy.gif"/></marquee>
-				<div class="header row ">
-					<a class="headerLink" href="./Home.html">Home</a>
+				<div class="header row hidden-xs">
+					<a class="headerLink" style="text-align:center !important;"href="./Home.html">Home</a>
 					<a class="headerLink" href="./AboutUs.html">About Us</a>
 					<a class="headerLink" href="./OurBeer.html">Our Beer</a>
 					<a class="headerLink" href="./2BBGear.html">2BB Gear</a>
 					<a class="activePage headerLink" href="./Photos.html">Photos</a>
 					<a class="headerLink" href="./Contributers.html">Contributors</a>
 					<a class="headerLink" href="./ContactUs.html">Contact Us</a>
+				</div>
+				<div class="header container navBar row hidden-lg hidden-md hidden-sm">
+				<div class="dropdown">
+					<a href="#" class="headerLink dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Menu <span class="caret"></span></a>
+					<ul class="xsMenuBar dropdown-menu" role="menu" aria-labelledby="menu1" >
+						<li role="presentation"><a class="headerLink"role="menuitem" tabindex="-1" style="text-align:center !important;"href="./Home.html">Home</a>
+						<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./AboutUs.html">About Us</a></li>
+						<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./OurBeer.html">Our Beer</a></li>
+						<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./2BBGear.html">2BB Gear</a></li>
+						<li role="presentation"><a class="xsActivePage headerLink" role="menuitem" tabindex="-1" href="./Photos.html">Photos</a></li>
+						<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./Contributers.html">Contributors</a></li>
+						<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./ContactUs.html">Contact Us</a></li>
+					</ul>
+					</div>
 				</div>
 				<div class="row ">
 					<div class="row beerImgRow">

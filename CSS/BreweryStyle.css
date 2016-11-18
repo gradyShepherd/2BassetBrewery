@@ -126,6 +126,7 @@ marquee
 .headerLink:hover
 {
 	color: #DD7403 !important;
+	 background-color:#361508 !important;
 	text-decoration:none !important;
 	text-shadow: 1.25px 1.25px #FAF700;
 }
@@ -319,5 +320,26 @@ marquee
 	 height:auto;
 	 display:block;
 	 margin-right:0;
-	 
  }
+ .xsMenuBar
+ {
+	 list-style:none;
+	 text-align:center;
+	 background-color:#361508 !important;
+	 border-bottom:solid #A34F0A 3px;
+	 width:100%;
+ }
+ 
+ .xsActivePage
+ {
+	text-decoration:underline; 
+	color: white !important; 
+	text-shadow:none !important;
+ }
+.menuBar-fixed {
+    top: 0;
+    z-index: 100;
+	position: fixed;
+    width: 100%;
+	right:5%;
+}
