@@ -95,14 +95,15 @@ marquee
 	padding-top:10px;
 	width:90%;
 	text-transform:uppercase;
+	float:left;
 }
 .header
 {
 	padding-top:15px;
 	padding-bottom:15px;
 	margin-bottom:50px;
-	border-top:solid #A34F0A 3px;
-	border-bottom:solid #A34F0A 3px;
+	border-top:solid #F1BE0E 3px;
+	border-bottom:solid #F1BE0E 3px;
 	background-color: #361508;
 	text-align:center !important;
 }
@@ -157,7 +158,7 @@ marquee
 }
 .margins
 {
-	background-color: #FF0000;
+	background-color: #DB5800;
 	width: 100% !important;
 	height:100% !important;
 }
@@ -186,7 +187,7 @@ marquee
 	margin-top:50px;
 	border-radius:10px;
 	padding-bottom:15px;
-	border: solid 3px #A34F0A;
+	border: solid 3px #F1BE0E;
 }
 .imgSlider
 {
@@ -198,7 +199,7 @@ marquee
 }
 .photo
 {
-	width:120%;
+	width:100%;
     transform: translate(0%, -50%);
 	border: solid #422F20 5px; 
 	border-radius: 10px;
@@ -311,7 +312,7 @@ marquee
  {
 	 width:32px;
 	 height:32px;
-	 display:block;
+	 display:inline-block;
 	 float:right;
  }
  .facebookLogo

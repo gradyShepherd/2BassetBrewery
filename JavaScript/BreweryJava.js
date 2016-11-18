@@ -17,11 +17,7 @@ $(document).ready(function() {
     }
   });
 });
-/*
-$("#xsMenuBar").click(function(){
-	console.log("test complete")
-  if (document.getElementById('xsMenuBar').style.display == 'none')
-    document.getElementById('xsMenuBar').style.display = 'block'
-  else
-    $('.xsMenuBar').document.getElementById('xsMenuBar').css('display','none')
-});*/
+
+$(document).ready(function() {
+    $('.gallery').colorbox();
+});
