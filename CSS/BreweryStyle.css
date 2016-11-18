@@ -157,7 +157,7 @@ marquee
 }
 .margins
 {
-	background-color: #D15700;
+	background-color: #FF0000;
 	width: 100% !important;
 	height:100% !important;
 }
@@ -311,7 +311,7 @@ marquee
  {
 	 width:32px;
 	 height:32px;
-	 display:inline-block;
+	 display:block;
 	 float:right;
  }
  .facebookLogo
@@ -319,7 +319,6 @@ marquee
 	 width:100%;
 	 height:auto;
 	 display:block;
-	 margin-right:0;
  }
  .xsMenuBar
  {
@@ -336,7 +335,8 @@ marquee
 	color: white !important; 
 	text-shadow:none !important;
  }
-.menuBar-fixed {
+.menuBar-fixed 
+{
     top: 0;
     z-index: 100;
 	position: fixed;
