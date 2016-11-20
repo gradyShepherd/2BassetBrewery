@@ -18,6 +18,8 @@ $(document).ready(function() {
   });
 });
 
-$(document).ready(function() {
-    $('.gallery').colorbox();
-});
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true,
+  'disableScrolling':true,
+})

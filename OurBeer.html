@@ -11,6 +11,7 @@
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
 				crossorigin="anonymous">
+				<script src="./JavaScript/BreweryJava.js"></script>
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 			</head>
 			<body>
@@ -29,17 +30,17 @@
 					<a class="headerLink" href="./ContactUs.html">Contact Us</a>
 				</div>
 				<div class="header container navBar row hidden-lg hidden-md hidden-sm">
-				<div class="dropdown">
-					<a href="#" class="headerLink dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Menu <span class="caret"></span></a>
-					<ul class="xsMenuBar dropdown-menu" role="menu" aria-labelledby="menu1" >
-						<li role="presentation"><a class="headerLink"role="menuitem" tabindex="-1" style="text-align:center !important;"href="./Home.html">Home</a>
-						<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./AboutUs.html">About Us</a></li>
-						<li role="presentation"><a class="xsActivePage headerLink" role="menuitem" tabindex="-1" href="./OurBeer.html">Our Beer</a></li>
-						<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./2BBGear.html">2BB Gear</a></li>
-						<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./Photos.html">Photos</a></li>
-						<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./Contributers.html">Contributors</a></li>
-						<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./ContactUs.html">Contact Us</a></li>
-					</ul>
+					<div class="dropdown">
+						<a href="#" class="headerLink dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Menu <span class="caret"></span></a>
+						<ul class="xsMenuBar dropdown-menu" role="menu" aria-labelledby="menu1" >
+							<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" style="text-align:center !important;"href="./Home.html">Home</a>
+							<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./AboutUs.html">About Us</a></li>
+							<li role="presentation"><a class="xsActivePage headerLink" role="menuitem" tabindex="-1" href="./OurBeer.html">Our Beer</a></li>
+							<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./2BBGear.html">2BB Gear</a></li>
+							<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./Photos.html">Photos</a></li>
+							<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./Contributers.html">Contributors</a></li>
+							<li role="presentation"><a class="headerLink" role="menuitem" tabindex="-1" href="./ContactUs.html">Contact Us</a></li>
+						</ul>
 					</div>
 				</div>
 				<div class="row">
@@ -234,7 +235,7 @@
 					<div class="row">
 					<!--Hide thumbnail in xs view-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/antThumb.png"/></div>
-					<div class=" beerRow col-lg-10 col-md-10" id="anticipation">
+					<div class=" beerRow col-lg-10 col-md-10 col-sm-11" id="anticipation">
 						<h1 class="beerName hidden-xs">Anticipation</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Anticipation</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -249,7 +250,7 @@
 					<div class="row">
 					<!--hide Thumbnail in xs view-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/brownThumb.png"/></div>						
-						<div class="col-lg-10 beerRow" id="leroyBrown">
+						<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="leroyBrown">
 							<h1 class="beerName hidden-xs">Bad Bad Leroy Brown</h1>
 							<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Bad Bad Leroy Brown</h1>
 							<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -263,7 +264,7 @@
 					<div class="row">
 					<!--hide Thumbnail in xs view-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/bassitoThumb.png"/></div>
-					<div class="col-lg-10 beerRow" id="bassito">
+					<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="bassito">
 						<h1 class="beerName hidden-xs">Bassito</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Bassito</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -279,7 +280,7 @@
 					<div class="row">
 					<!--hide Thumbnail in xs view-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/belterThumb.png"/></div>
-					<div class="col-lg-10 beerRow" id="belter">
+					<div class="col-lg-10 col-md-10  col-sm-11 beerRow" id="belter">
 						<h1 class="beerName hidden-xs">Belter</h1>				
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Belter</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -294,8 +295,8 @@
 					</div>
 					<div class="row">
 					<!--hide Thumbnail in xs view-->
-					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/antThumb.png"/></div>
-						<div class="col-lg-10 beerRow" id="bottomsUp">
+					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/porterThumb.png"/></div>
+						<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="bottomsUp">
 						<h1 class="beerName hidden-xs">Bottoms Up</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Bottoms Up</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -310,7 +311,7 @@
 					<div class="row">
 					<!--hide Thumbnail in xs view-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/breakingBassetThumb.png"/></div>
-					<div class="col-lg-10 beerRow" id="breakingBasset">
+					<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="breakingBasset">
 						<h1 class="beerName hidden-xs">Breaking Basset</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Breaking Basset</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -324,7 +325,7 @@
 					<div class="row">
 					<!--hide Thumbnail in xs view-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/chasingBlondeThumb.png"/></div>
-					<div class="col-lg-10 beerRow" id="chasingBlonde">
+					<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="chasingBlonde">
 						<h1 class="beerName hidden-xs">Chasing Blonde</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Chasing Blonde</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -339,7 +340,7 @@
 					<div class="row">
 					<!--hide Thumbnail in xs view-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/diggerThumb.png"/></div>
-					<div class="col-lg-10 beerRow" id="digger">
+					<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="digger">
 						<h1 class="beerName hidden-xs">Digger</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Digger</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -353,7 +354,7 @@
 					<div class="row">
 					<!--hide Thumbnail in xs view-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/drooliganThumb.png"/></div>
-					<div class="col-lg-10 beerRow" id="drooligan">
+					<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="drooligan">
 						<h1 class="beerName hidden-xs">Drooligan</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Drooligan</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -366,8 +367,8 @@
 					</div>
 					<div class="row">
 					<!--hide Thumbnail in xs view, thumbnail needs moved slightly up on beer with short description-->
-					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img style="top:110px;" class="beerThumbnail" src="./Images/antThumb.png"/></div>
-					<div class="col-lg-10 beerRow" id="esb">
+					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img style="top:100px;" class="beerThumbnail" src="./Images/esbThumb.png"/></div>
+					<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="esb">
 						<h1 class="beerName hidden-xs">Extra Special Basset</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Extra Special Basset</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -381,7 +382,7 @@
 					<div class="row">
 					<!--hide Thumbnail in xs view-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/honeyImHomeThumb.png"/></div>
-					<div class="col-lg-10 beerRow" id="honey">
+					<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="honey">
 						<h1 class="beerName hidden-xs">Honey I'm Home</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Honey I'm Home</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -395,7 +396,7 @@
 					<div class="row">
 					<!--hide Thumbnail in xs view-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img class="beerThumbnail" src="./Images/stoutThumb.png"/></div>
-					<div class="col-lg-10 beerRow" id="stanleyStout">
+					<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="stanleyStout">
 						<h1 class="beerName hidden-xs">Stanley Stout</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Stanley Stout</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -410,7 +411,7 @@
 					<div class="row">
 					<!--hide Thumbnail in xs view, thumbnail needs moved slightly up on beer with short description-->
 					<div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"><img style="top:110px;" class="beerThumbnail" src="./Images/whistleWetterThumb.png"/></div>
-						<div class="col-lg-10 beerRow" id="whistleWetter">
+						<div class="col-lg-10 col-md-10 col-sm-11 beerRow" id="whistleWetter">
 						<h1 class="beerName hidden-xs">Whistle Wetter</h1>
 						<h1 class="xsBeerName hidden-lg hidden-md hidden-sm">Whistle Wetter</h1>
 						<!--div class="beerThumbnail "><img class="beerThumbnail" src="./Images/antThumb.png"/></div-->
@@ -426,7 +427,7 @@
 						<div class="updateInfo xsUpdate hidden-lg hidden-md hidden-sm">**Updated:October 26th, 2016</div>
 					</div>
 					<footer>
-						<div class="footer">© 2 BASSET BREWERY. 2016. ALL RIGHTS RESERVED. <a target="blank" href="https://www.facebook.com/2BassetBrewery/?fref=ts"><span class="facebookLink hidden-xs"><img class="facebookLogo" src="./Images/facebook.png"/></span><span class="facebookLink hidden-lg hidden-md hidden-sm" style="margin-top:-20px;"><img class="facebookLogo" src="./Images/facebook.png"/></span></a></div>
+						<div class="footer">© 2 BASSET BREWERY. 2016. ALL RIGHTS RESERVED.<a target="blank" href="https://www.facebook.com/2BassetBrewery/?fref=ts"><span class="facebookLink hidden-xs"><img class="facebookLogo" src="./Images/facebook.png"/></span></a></div>
 					</footer>
 				</div>
 			</body>
