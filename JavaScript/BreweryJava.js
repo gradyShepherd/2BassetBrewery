@@ -26,6 +26,6 @@ lightbox.option({
 
 function openFacebook(){
 	event.preventDefault();
-	window.open("fb://1469884123304503");
+	window.open("fb://profile");
 	setTimeout(function () { window.open("https://www.facebook.com/2BassetBrewery/?fref=ts"); }, 500);
 }
