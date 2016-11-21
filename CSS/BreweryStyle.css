@@ -61,6 +61,7 @@ marquee
 }
 .button
 {
+	cursor:pointer;
 	display:block;
 	width:235px;
 	height:80px;
@@ -309,6 +310,7 @@ marquee
  }
  .facebookLink
  {
+	 cursor: pointer;
 	 width:32px;
 	 height:32px;
 	 display:inline-block;
