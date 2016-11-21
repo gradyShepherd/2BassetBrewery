@@ -25,7 +25,17 @@ lightbox.option({
 })
 
 function openFacebook(){
-	setTimeout(function () { window.open("fb://page/1469884123304503"); }, 25);
-	window.open("https://www.facebook.com/2BassetBrewery/?fref=ts",'_blank');
+	uriSchemeWithHyperlinkFallback('fb://page/1469884123304503', 'https://www.facebook.com/2BassetBrewery/?fref=ts');
 	event.preventDefault();
 }
+
+function openFacebook(uri, href) {
+    if(!window.open(uri)){
+        window.location = href;
+    }
+}
+$('a.intent').on('click', function (event) {
+    uriSchemeWithHyperlinkFallback('fb://page/1469884123304503', 'https://www.facebook.com/2BassetBrewery/?fref=ts');
+    // we don't want the default browser behavior kicking in and screwing everything up.
+    event.preventDefault();
+});
