@@ -91,10 +91,12 @@ marquee
     height : 50px;
     margin-top : 50px;
 	color:white;
-	margin-left: 5%;
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
 	border-top: solid 3px #A34F0A;
 	padding-top:10px;
-	width:90%;
+	width:95%;
 	text-transform:uppercase;
 }
 .header
@@ -345,4 +347,25 @@ marquee
 	position: fixed;
     width: 100%;
 	right:5%;
+}
+.xsHeader
+{
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom:50px;
+	border-top:solid #F1BE0E 3px;
+	border-bottom:solid #F1BE0E 3px;
+	background-color: #361508;
+	text-align:center !important;
+	width: inherit ;
+	z-index:1 !important;
+}
+.phoneLink
+{
+	color:white !important;
+	text-decoration:underline !important;
+}
+.phoneLink:hover
+{
+	color:yellow !important;
 }
