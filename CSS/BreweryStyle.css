@@ -313,6 +313,7 @@ marquee
 	 height:32px;
 	 display:inline-block;
 	 float:right;
+	 margin-top:-50px;
  }
  .facebookLogo
  {

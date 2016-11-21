@@ -23,3 +23,8 @@ lightbox.option({
   'wrapAround': true,
   'disableScrolling':true,
 })
+
+function openFacebook(){
+	setTimeout(function () { window.location = "https://www.facebook.com/2BassetBrewery/?fref=ts"; }, 25);
+	window.location = "fb://2BassetBrewery/1469884123304503";
+}
