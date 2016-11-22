@@ -26,6 +26,12 @@ lightbox.option({
 
 function openFacebook(){
 	event.preventDefault();
-	if(!window.open('fb://facewebmodal/f?href=https://www.facebook.com/2BassetBrewery/?fref=ts'))
-		setTimeout(function () { window.open("https://www.facebook.com/2BassetBrewery/?fref=ts"); }, 500);
+	
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		window.open('fb://facewebmodal/f?href=https://www.facebook.com/2BassetBrewery/?fref=ts')
+	}
+	else{
+		window.open("https://www.facebook.com/2BassetBrewery/?fref=ts",'_blank');
+	}
+		
 }
