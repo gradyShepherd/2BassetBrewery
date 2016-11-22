@@ -312,17 +312,17 @@ marquee
  .facebookLink
  {
 	 cursor: pointer;
-	 width:32px;
-	 height:32px;
-	 display:inline-block;
-	 float:right;
+	 width:32px !important;
+	 height:32px !important;
 	 margin-top:-50px;
+	 float:right
  }
  .facebookLogo
  {
 	 width:100%;
 	 height:auto;
-	 display:block;
+	 width:32px !important;
+	 height:32px !important;
  }
  .xsMenuBar
  {
