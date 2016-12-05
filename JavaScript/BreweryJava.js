@@ -27,7 +27,7 @@ lightbox.option({
 function openFacebook(){
 	event.preventDefault();
 	
-	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	if( /Android|webOS|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		window.open('fb://facewebmodal/f?href=https://www.facebook.com/2BassetBrewery/?fref=ts')
 	}
 	else{
